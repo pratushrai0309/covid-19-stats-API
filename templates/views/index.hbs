@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="styesheet" href="/static/styles.css">
+  <title>Cocid19Stats</title>
+</head>
+<body>
+  <div id="header">
+  {{>header}}
+  </div>
+  <p id="fea">Features</p>
+  <div class="top-border"></div>
+  <p id="fea2">Build anything from console widgets to mobile applications, with our free and easy to use API. <br> We provide current data about Covid 19 Pandemic.</p>
+  <div class="top-border" id="below"></div>
+  <p id="data">Our data is json formatted, free to use and up to date.<br>Check out the example call.</p>
+  <div id="getS"><p id="get">http://localhost:8080/api/v1/total</p></div>
+  <p id="dont">Don't know how to create one check our example application build on the top of this API.</p>
+  <div id="ex"><a href="/docs">Example Application</a></div>
+</body>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body{
+ width: 100%; 
+ height: 100%; 
+ position: fixed;
+ margin: 0px; 
+ padding: 0px; 
+ background-color: #282828;
+}
+
+h1{
+  font-size: 30px;
+  color: #D23E3E;
+  margin:30px;
+  display: inline;
+  padding-top: 50px;
+} 
+
+header a{
+  text-decoration: none;
+  color: #767675;
+  margin-right: 50px;
+  float: right;
+  transition-delay: 50ms;
+}
+
+#fea{
+  text-align: center;
+  font-size: 28px;
+  margin-top: 100px;
+  color: #FB7373;
+}
+
+#topborder{
+  margin:0px auto;
+  background-color: #FB7373;
+  width: auto;
+}
+
+#data{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  color: #A6A3A3;
+}
+
+#dont{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  color: #A6A3A3;
+}
+
+#below{
+  margin-top: 40px;
+}
+
+#fea2{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  color: #A6A3A3;
+}
+
+#get{   
+  padding-top: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#getS{
+  text-align: center;
+   margin: 0px auto;
+   background-color: #65686B  ;
+   width: 350px;
+   height: 40px;
+   border-radius: 4px;
+   margin-top: 40px;
+}
+
+#ex{
+  text-align: center;
+   margin: 0px auto;
+   background-color: #4A9CF0;
+   width: 120px;
+   height: 50px;
+   border-radius: 4px;
+   margin-top: 40px;
+}
+
+#ex1{
+  text-align: center;
+  font-size: 24px;
+  color: #65686B;
+  margin-top: 40px;
+}
+
+#ex a{
+  padding-top: 30px;
+  text-decoration: none;
+  color: aliceblue;
+  padding-top: 25px;
+}
+
+#header{
+  margin-top: 40px;
+}
+
+header a:hover{
+  border-bottom: 2px solid #FB7373;
+}
+
+#about{
+  border-top: 2px solid #FB7373;
+  padding-top: 50px;
+  color: #B6ACB8;
+}
+
+#features{
+  margin: 0px auto;
+}
+
+.top-border{
+  margin: 0px auto;
+  width: 180px;
+  height: 2px;
+  background-color: #FB7373;
+}
+
+footer{
+  background-color: #262728;
+}
+
+footer h1{
+  text-align: center;
+  font-size: 28px;
+
+}
+
+</style>
+</html>

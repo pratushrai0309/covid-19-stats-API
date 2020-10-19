@@ -1,0 +1,16 @@
+{
+  "name": "covidstatsapi",
+  "version": "1.0.0",
+  "description": "A API that take the name of the country and give us the Covid 19 Stats",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pratush Rai",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "request": "^2.88.2"
+  }
+}
