@@ -19,7 +19,7 @@ hbs.registerPartials(partialPath)
 
 app.get('/', (req, res) => {
   res.render('index',{
-    title: 'Covid 19 Stats API'
+    title: 'Covid 19 Stats'
   })
 })
 
