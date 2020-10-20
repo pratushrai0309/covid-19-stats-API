@@ -4,7 +4,7 @@
   "description": "A API that take the name of the country and give us the Covid 19 Stats",
   "main": "api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api.js"
   },
   "author": "Pratush Rai",
   "license": "MIT",
