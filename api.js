@@ -122,6 +122,10 @@ app.get('/api/v1/covid-19/continent', (req, res) => {
   }
 })
 
+app.get('*', (req, res) => {
+  res.render('404page')
+})
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 })  
