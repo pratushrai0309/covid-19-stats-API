@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2013/png/iconmonstr-virus-1.png&r=0&g=0&b=0">  
+  <title>Docs</title>
+</head>
+<body>
+  <div id="header">
+    {{>header}}
+    <p class="info" id="world">If you want the data of whole world.</p>
+    <div class="call" id="getS"><p class="get">http://localhost:8080/api/v1/total</p></div>
+    <p class="info">If you want data of a specific country.</p>
+    <div id="big" class="call"><p class="get">http://localhost:8080/api/v1/country?country={countryName}</p></div>
+     <p class="info">If you want data of a specific continent.</p>
+    <div id="big2" class="call"><p class="get">http://localhost:8080/api/v1/continent?continent={continentName}</p></div>
+    </div>
+</body>
+<style>
+  body{
+ width: 100%; 
+ height: 100%; 
+ position: fixed;
+ margin: 0px; 
+ padding: 0px; 
+ background-color: #282828;
+}
+
+h1{
+  font-size: 30px;
+  color: #D23E3E;
+  margin:30px;
+  display: inline;
+  padding-top: 50px;
+} 
+
+#data{
+  font-size: 18px;
+  color: #D23E3E;
+  text-align: center; 
+}
+
+header a{
+  text-decoration: none;
+  color: #767675;
+  margin-right: 50px;
+  float: right;
+  transition-delay: 50ms;
+}
+
+header a:hover{
+  border-bottom: 2px solid #FB7373;
+}
+
+#big2{
+  width: 400px;
+  height: 60px;
+}
+
+#header{
+  margin-top: 40px;
+}
+
+#world{
+  margin-top: 100px;
+}
+
+.info{
+  text-align: center;
+  color: #818386;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.call{
+  text-align: center;
+   margin: 0px auto;
+   background-color: #65686B  ;
+   width: 350px;
+   height: 40px;
+   border-radius: 4px;
+   margin-top: 40px;
+}
+
+#big{
+  width: 400px;
+  height: 60px;
+}
+
+.get{   
+  padding-top: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+</style>
+</html>
